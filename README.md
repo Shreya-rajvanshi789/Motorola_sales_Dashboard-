@@ -4,7 +4,7 @@
 In this project i had created a Dashboard of motorola sales using PowerBI .
 
 
-### Dashboard Link : https://1drv.ms/u/c/df29bfb6512c5c25/Ea4WRq9EGvVGiEcsmu_oPIMBLWuYKowT9ygiklH7pLmV3w?e=OLOgQV
+### Dashboard Link : https://1drv.ms/u/c/df29bfb6512c5c25/Ea4WRq9EGvVGiEcsmu_oPIMBLWuYKowT9ygiklH7pLmV3w?e=3t0Au6
 
 ## Problem Statement
 
@@ -43,10 +43,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent Total_Sales.
 
-[Image](https://github.com/user-attachments/assets/4c55c6bb-113a-43f2-a40d-0e261b7833f9)
-
-
-
+![Screenshot 2025-03-28 045210](https://github.com/user-attachments/assets/e3861a82-4f32-477d-acb4-7a5bbce503f6)
 
 - Step 10 : New measure was created to find total quantity of units sold.
 
@@ -56,7 +53,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent Total_quantity.
 
-[Image](https://github.com/user-attachments/assets/df96689a-b442-461b-bede-dffc3d64c279)
+![Screenshot 2025-03-28 045001](https://github.com/user-attachments/assets/286dcbfa-64a0-4995-b2c4-9d709367a579)
 
         
  - Step 11 : New measure was created to find  total no. of Transactions.
@@ -66,10 +63,8 @@ A card visual was used to represent Total_quantity.
          Transactions = COUNTROWs(Sales_data)
  
  A card visual was used to represent Transactions.
- 
 
- 
-[Image](https://github.com/user-attachments/assets/8c466d63-ca50-4753-ab81-dda97666da3e)
+![Screenshot 2025-03-28 045715](https://github.com/user-attachments/assets/8f955700-90da-42b2-9817-d73d231b7e17)
 
  
  - Step 12 : New measure was created to calculate Average of price per unit.
@@ -78,9 +73,8 @@ A card visual was used to represent Total_quantity.
  
          Average = average(Sales_data[Price Per Unit])
           A card visual was used to represent Average.
- 
- 
-[Image](https://github.com/user-attachments/assets/ed94b5be-1dc9-416f-85fa-5ff578bd2242)
+
+![Screenshot 2025-03-28 045901](https://github.com/user-attachments/assets/891b8b7d-4083-447e-8b51-513069d0aeed)
 
 
 - Step 13 : Four card visuals were added to the canvas, for "Total_Sales", "Total_Quantity", "Total_Transactions" and "Average" .
@@ -101,21 +95,26 @@ A card visual was used to represent Total_quantity.
 
 
 
-# Insights
 
-A single page report was created on Power BI Desktop . 
+# Report Snapshot (Power BI DESKTOP)
+![Screenshot 2025-03-31 234533](https://github.com/user-attachments/assets/b45bae5d-3eab-4aae-a8c3-3d390a2d145d)
+
+# Insights
 
 Following inferences can be drawn from the dashboard;
 
-### [1] Total Number of Customers = 
+### [1] Total Quntity = 19K
 
- 
+### [2] Customers with Rating 5 = 311
 
-           
-### [2] Average Ratings
+ ### [3] Total Sales = 769M
+
+ ### [4] Region with highest sale = Delhi(204M)
+
+ ### [5] Brand with highest sale = Apple(162M)
+
+### [6] Month with highest sale = July(70M)
 
 
-
- ### [4] Some other insights
  
  
