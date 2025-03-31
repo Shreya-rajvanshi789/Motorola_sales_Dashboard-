@@ -28,14 +28,14 @@ This dashboard will help :
 - Step 1 : Load data into Power BI Desktop, dataset is a csv file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
+- Step 4 : It was observed that in none of the columns errors & empty values .
  
-- Step 6 : In the report view, under the view tab, theme was selected.
-- step 7 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area.
+- Step 5 : In the report view, under the view tab, theme was selected.
+- step 6 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area.
 
-- Step 8 : Visual filter (Slicer) were added for field "Month" .
+- Step 7 : Visual filter (Slicer) were added for field "Month" .
 
-- step 9 :  New measure was created to find total sales of Motorola.
+- step 8 :  New measure was created to find total sales of Motorola.
 
 Following DAX expression was written for the same,
         
@@ -45,7 +45,7 @@ A card visual was used to represent Total_Sales.
 
 ![Screenshot 2025-03-28 045210](https://github.com/user-attachments/assets/e3861a82-4f32-477d-acb4-7a5bbce503f6)
 
-- Step 10 : New measure was created to find total quantity of units sold.
+- Step 9 : New measure was created to find total quantity of units sold.
 
 Following DAX expression was written for the same,
         
@@ -56,7 +56,7 @@ A card visual was used to represent Total_quantity.
 ![Screenshot 2025-03-28 045001](https://github.com/user-attachments/assets/286dcbfa-64a0-4995-b2c4-9d709367a579)
 
         
- - Step 11 : New measure was created to find  total no. of Transactions.
+ - Step 10 : New measure was created to find  total no. of Transactions.
  
  Following DAX expression was written for the same,
  
@@ -67,7 +67,7 @@ A card visual was used to represent Total_quantity.
 ![Screenshot 2025-03-28 045715](https://github.com/user-attachments/assets/8f955700-90da-42b2-9817-d73d231b7e17)
 
  
- - Step 12 : New measure was created to calculate Average of price per unit.
+ - Step 11 : New measure was created to calculate Average of price per unit.
  
  Following DAX expression was written to find Average,
  
@@ -77,21 +77,21 @@ A card visual was used to represent Total_quantity.
 ![Screenshot 2025-03-28 045901](https://github.com/user-attachments/assets/891b8b7d-4083-447e-8b51-513069d0aeed)
 
 
-- Step 13 : Four card visuals were added to the canvas, for "Total_Sales", "Total_Quantity", "Total_Transactions" and "Average" .
+- Step 12 : Four card visuals were added to the canvas, for "Total_Sales", "Total_Quantity", "Total_Transactions" and "Average" .
            
            Although, by default, while calculating average, blank values are ignored.
 
-- Step 14 : A column chart was also added for representing Total_Sales by Mobile_Models. 
+- Step 13 : A column chart was also added for representing Total_Sales by Mobile_Models. 
 
-- step 15 : A line chart was added to  represent Total quantity of units sold by month . 
+- step 14 : A line chart was added to  represent Total quantity of units sold by month . 
 
-- step 16 : A funnel chart was also added for representing customer ratings via count of customer ratings .
+- step 15 : A funnel chart was also added for representing customer ratings via count of customer ratings .
 
-- step 17 : An area chart was added to represent Total sales by day name .
+- step 16 : An area chart was added to represent Total sales by day name .
 
-- step 18 : A map is also added to see in which areas sales is high or in which areas it is low by the name of cities .
+- step 17 : A map is also added to see in which areas sales is high or in which areas it is low by the name of cities .
 
-- step 19 : A Donut chart was also added to represent Total_quantity and Total_Sales by the brands of Mobile Models.
+- step 18 : A Donut chart was also added to represent Total_quantity and Total_Sales by the brands of Mobile Models.
 
 
 
